@@ -1,0 +1,50 @@
+.cell-list {
+  margin: 0 25px 50vh;
+}
+
+.card {
+  margin-top: 0.75rem;
+}
+
+.input-container {
+  margin-top: 0.75rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.info-link {
+  padding: 0.5rem;
+
+  white-space: nowrap;
+  overflow: hidden;
+
+  background-color: #dee5ed;
+  color: #1d2a38;
+
+  border-radius: 4px;
+}
+
+.copy-icon {
+  margin-left: 0.5rem;
+
+  cursor: pointer;
+}
+
+.info-check::before {
+  margin-left: 0.5rem;
+
+  color: green;
+}
+
+.react-draggable-transparent-selection .cell-list {
+  margin-bottom: 100vh;
+}
+
+.button.is-primary {
+  background-color: #2D882D;
+}
+
+.button.is-primary:hover {
+  background-color: #2D882D;
+}
